@@ -5,6 +5,8 @@
     <classes>
       <class name="dhananjayparit.ResetPasswordTest">
         <methods>
+          <include name="resetPassword"/>
+          <include name="averifyRequiredMessage"/>
           <include name="bverifyCancelButton"/>
           <include name="closeApplication"/>
           <include name="launchApplication"/>

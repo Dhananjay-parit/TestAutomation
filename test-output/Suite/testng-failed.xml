@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="FirstTest(failed)">
     <classes>
-      <class name="dhananjayparit.NewTest">
+      <class name="dhananjayparit.ResetPasswordTest">
         <methods>
-          <include name="invalidLoginTest"/>
-          <include name="validLoginTest"/>
+          <include name="resetPassword"/>
+          <include name="averifyRequiredMessage"/>
+          <include name="bverifyCancelButton"/>
           <include name="closeApplication"/>
           <include name="launchApplication"/>
         </methods>
-      </class> <!-- dhananjayparit.NewTest -->
+      </class> <!-- dhananjayparit.ResetPasswordTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- FirstTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

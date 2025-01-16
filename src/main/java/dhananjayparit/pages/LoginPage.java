@@ -28,7 +28,7 @@ public class LoginPage extends CommanMethods {
 	    @FindBy (xpath="//button[text()=' Login ']")
 	    private WebElement loginButton;
 	    
-	    @FindBy (xpath="//p[text()='Forgot Your Password? ']")
+	    @FindBy (xpath="//p[text()='Forgot your password? ']")
 	    private WebElement forgotPasswordLink;
 	    
 	    @FindBy (xpath="//p[text()='Invalid credentials']")

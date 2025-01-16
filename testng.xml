@@ -5,6 +5,7 @@
     <classes>
       <class name="dhananjayparit.LoginTest"/>
       <class name="dhananjayparit.ResetPasswordTest"/>
+      <class name="dhananjayparit.SelectHomeMenus"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
+import dhananjayparit.pages.HomePageMenus;
 import dhananjayparit.pages.LoginPage;
 import dhananjayparit.pages.ResetPassword;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -20,6 +21,7 @@ public class BaseTest {
 	public WebDriver driver;
 	public LoginPage lp;
 	public ResetPassword resetpwd;
+	public HomePageMenus hpmenus;
 	
 	@BeforeClass
 	public void launchApplication() {
@@ -30,6 +32,7 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		lp = new LoginPage(driver);
 		resetpwd = new ResetPassword(driver);
+		hpmenus = new HomePageMenus(driver);
 		
 	}
 	
