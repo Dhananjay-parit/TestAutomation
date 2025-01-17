@@ -2,60 +2,60 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-16T23:09:52 IST" name="Suite" finished-at="2025-01-16T23:10:30 IST" duration-ms="38425">
+  <suite started-at="2025-01-16T23:16:08 IST" name="Suite" finished-at="2025-01-16T23:16:47 IST" duration-ms="38472">
     <groups>
     </groups>
-    <test started-at="2025-01-16T23:09:52 IST" name="FirstTest" finished-at="2025-01-16T23:10:30 IST" duration-ms="38425">
+    <test started-at="2025-01-16T23:16:08 IST" name="FirstTest" finished-at="2025-01-16T23:16:47 IST" duration-ms="38472">
       <class name="dhananjayparit.ResetPasswordTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhananjayparit.ResetPasswordTest@73a1e9a9]" started-at="2025-01-16T23:10:01 IST" name="launchApplication" finished-at="2025-01-16T23:10:05 IST" duration-ms="4041" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhananjayparit.ResetPasswordTest@73a1e9a9]" started-at="2025-01-16T23:16:17 IST" name="launchApplication" finished-at="2025-01-16T23:16:22 IST" duration-ms="4154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="averifyRequiredMessage()[pri:0, instance:dhananjayparit.ResetPasswordTest@73a1e9a9]" started-at="2025-01-16T23:10:05 IST" name="averifyRequiredMessage" finished-at="2025-01-16T23:10:07 IST" duration-ms="1817" status="PASS">
+        <test-method signature="averifyRequiredMessage()[pri:0, instance:dhananjayparit.ResetPasswordTest@73a1e9a9]" started-at="2025-01-16T23:16:22 IST" name="averifyRequiredMessage" finished-at="2025-01-16T23:16:23 IST" duration-ms="1525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- averifyRequiredMessage -->
-        <test-method signature="bverifyCancelButton()[pri:0, instance:dhananjayparit.ResetPasswordTest@73a1e9a9]" started-at="2025-01-16T23:10:07 IST" name="bverifyCancelButton" finished-at="2025-01-16T23:10:08 IST" duration-ms="502" status="PASS">
+        <test-method signature="bverifyCancelButton()[pri:0, instance:dhananjayparit.ResetPasswordTest@73a1e9a9]" started-at="2025-01-16T23:16:23 IST" name="bverifyCancelButton" finished-at="2025-01-16T23:16:24 IST" duration-ms="499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bverifyCancelButton -->
-        <test-method signature="resetPassword()[pri:0, instance:dhananjayparit.ResetPasswordTest@73a1e9a9]" started-at="2025-01-16T23:10:08 IST" name="resetPassword" finished-at="2025-01-16T23:10:09 IST" duration-ms="1513" status="PASS">
+        <test-method signature="resetPassword()[pri:0, instance:dhananjayparit.ResetPasswordTest@73a1e9a9]" started-at="2025-01-16T23:16:24 IST" name="resetPassword" finished-at="2025-01-16T23:16:25 IST" duration-ms="1496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetPassword -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:dhananjayparit.ResetPasswordTest@73a1e9a9]" started-at="2025-01-16T23:10:09 IST" name="closeApplication" finished-at="2025-01-16T23:10:09 IST" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:dhananjayparit.ResetPasswordTest@73a1e9a9]" started-at="2025-01-16T23:16:25 IST" name="closeApplication" finished-at="2025-01-16T23:16:25 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
       </class> <!-- dhananjayparit.ResetPasswordTest -->
       <class name="dhananjayparit.SelectHomeMenus">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhananjayparit.SelectHomeMenus@71d44a3]" started-at="2025-01-16T23:10:09 IST" name="launchApplication" finished-at="2025-01-16T23:10:14 IST" duration-ms="4431" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhananjayparit.SelectHomeMenus@71d44a3]" started-at="2025-01-16T23:16:25 IST" name="launchApplication" finished-at="2025-01-16T23:16:29 IST" duration-ms="4103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="ClickOnEachMenu()[pri:0, instance:dhananjayparit.SelectHomeMenus@71d44a3]" started-at="2025-01-16T23:10:14 IST" name="ClickOnEachMenu" finished-at="2025-01-16T23:10:30 IST" duration-ms="16186" status="PASS">
+        <test-method signature="ClickOnEachMenu()[pri:0, instance:dhananjayparit.SelectHomeMenus@71d44a3]" started-at="2025-01-16T23:16:29 IST" name="ClickOnEachMenu" finished-at="2025-01-16T23:16:46 IST" duration-ms="17001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnEachMenu -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:dhananjayparit.SelectHomeMenus@71d44a3]" started-at="2025-01-16T23:10:30 IST" name="closeApplication" finished-at="2025-01-16T23:10:30 IST" duration-ms="324" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:dhananjayparit.SelectHomeMenus@71d44a3]" started-at="2025-01-16T23:16:46 IST" name="closeApplication" finished-at="2025-01-16T23:16:47 IST" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
       </class> <!-- dhananjayparit.SelectHomeMenus -->
       <class name="dhananjayparit.LoginTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhananjayparit.LoginTest@55141def]" started-at="2025-01-16T23:09:52 IST" name="launchApplication" finished-at="2025-01-16T23:09:58 IST" duration-ms="6254" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dhananjayparit.LoginTest@55141def]" started-at="2025-01-16T23:16:08 IST" name="launchApplication" finished-at="2025-01-16T23:16:15 IST" duration-ms="6239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="invalidLoginTest()[pri:0, instance:dhananjayparit.LoginTest@55141def]" started-at="2025-01-16T23:09:58 IST" name="invalidLoginTest" finished-at="2025-01-16T23:10:01 IST" duration-ms="2273" status="PASS">
+        <test-method signature="invalidLoginTest()[pri:0, instance:dhananjayparit.LoginTest@55141def]" started-at="2025-01-16T23:16:15 IST" name="invalidLoginTest" finished-at="2025-01-16T23:16:17 IST" duration-ms="2150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method signature="validLoginTest()[pri:0, instance:dhananjayparit.LoginTest@55141def]" started-at="2025-01-16T23:10:01 IST" name="validLoginTest" finished-at="2025-01-16T23:10:01 IST" duration-ms="401" status="PASS">
+        <test-method signature="validLoginTest()[pri:0, instance:dhananjayparit.LoginTest@55141def]" started-at="2025-01-16T23:16:17 IST" name="validLoginTest" finished-at="2025-01-16T23:16:17 IST" duration-ms="418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:dhananjayparit.LoginTest@55141def]" started-at="2025-01-16T23:10:01 IST" name="closeApplication" finished-at="2025-01-16T23:10:01 IST" duration-ms="262" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:dhananjayparit.LoginTest@55141def]" started-at="2025-01-16T23:16:17 IST" name="closeApplication" finished-at="2025-01-16T23:16:17 IST" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
